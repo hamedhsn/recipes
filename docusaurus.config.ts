@@ -37,9 +37,8 @@ const config: Config = {
       {
         docs: false, // Disable docs since we're using pages for CV
         blog: {
-          id: 'recipes',
           path: './recipes',
-          routeBasePath: 'recipes',
+          routeBasePath: 'blog',
           blogTitle: 'Recipe Blog',
           blogDescription: 'My collection of favorite recipes',
           showReadingTime: true,
@@ -68,7 +67,7 @@ const config: Config = {
       },
       items: [
         {to: '/', label: 'Home', position: 'left'},
-        {to: '/recipes', label: 'Recipes', position: 'left'},
+        {to: '/blog', label: 'Recipes', position: 'left'},
         {
           href: 'https://github.com/hamedhsn',
           label: 'GitHub',
@@ -88,7 +87,7 @@ const config: Config = {
             },
             {
               label: 'Recipes',
-              to: '/recipes',
+              to: '/blog',
             },
           ],
         },
