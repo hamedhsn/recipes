@@ -23,9 +23,7 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  // Internationalization configuration
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -68,6 +66,7 @@ const config: Config = {
       items: [
         {to: '/', label: 'Home', position: 'left'},
         {to: '/blog', label: 'Recipes', position: 'left'},
+        {to: '/fa', label: 'فارسی', position: 'right'},
         {
           href: 'https://github.com/hamedhsn',
           label: 'GitHub',
